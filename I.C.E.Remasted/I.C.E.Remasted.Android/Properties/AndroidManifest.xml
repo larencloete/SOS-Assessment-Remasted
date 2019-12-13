@@ -7,8 +7,24 @@
 	<uses-permission android:name="android.permission.LOCATION_HARDWARE" />
 	<uses-permission android:name="android.permission.RECEIVE_SMS" />
 	<uses-permission android:name="android.permission.RECEIVE_MMS" />
-	<uses-permission android:name="android.permission.WRITE_CONTACTS" />
+  <uses-permission android:name="android.permission.WRITE_CONTACTS" />
 	<uses-permission android:name="android.permission.READ_CONTACTS" />
 	<uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
 	<application android:label="I.C.E.Remasted.Android" android:icon="@mipmap/ic_launcher"></application>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+  <!--application android:label="I.C.E.Remasted.Android" android:icon="@mipmap/ic_launcher">
+    <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.I.C.E.Remasted.fileprovider" android:grantUriPermissions="true" android:exported="false">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+    </provider>-->
+  <!-->meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDTTi3mvyfxoHtqJE_1qQSECkmrBPEO4Ow" /-->
+  <!-->meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" /-->
+  <!-->/application-->
+  
+  
+  
+  
+  
+  
 </manifest>
