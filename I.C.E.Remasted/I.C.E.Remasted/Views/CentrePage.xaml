@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="I.C.E.Remasted.Views.CentrePage"
+             Title="Home">
+
+    <StackLayout Margin="10,10,10,50">
+
+
+        <Button Text="SOS" 
+                TextColor="White" FontSize="50"
+                BackgroundColor="#FFFF0000" 
+                HeightRequest="220" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                WidthRequest="220" CornerRadius="110"
+                
+                                           />
+
+
+    </StackLayout>
+
+
+</ContentPage>

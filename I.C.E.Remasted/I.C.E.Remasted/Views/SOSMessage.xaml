@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="I.C.E.Remasted.Views.SOSMessage"
+             BackgroundColor="DarkKhaki"
+             Title="Save Message">
+
+    <Grid Margin="10,10,10,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height=".5*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        
+  
+        <Editor Margin="10,10,10,10"
+            Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" 
+            Placeholder="Enter Message" TextColor="White"
+                FontSize="Large"
+            
+            />
+     
+        <Button  Text="Save" 
+               Grid.Column="0" Grid.Row="2"
+                BackgroundColor="CadetBlue"
+                CornerRadius="10"
+                />
+        <Button Text="Erase" 
+                Grid.Column="1" Grid.Row="2"
+                BackgroundColor="Crimson"
+                CornerRadius="10"
+
+                />
+
+    </Grid>
+
+
+</ContentPage>
